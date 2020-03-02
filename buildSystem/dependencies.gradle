@@ -63,7 +63,7 @@ ext {
 
 
     def retrofitVersion = "2.7.1"
-    def roomVersion = '2.1.0'
+    def roomVersion = '2.2.4'
     def loggingInterceptorVersion = '4.2.1'// Requests logging
     roomDependencies = [
             roomCompiler : "androidx.room:room-compiler:$roomVersion"
@@ -78,6 +78,7 @@ ext {
             loggingInterceptor : "com.squareup.okhttp3:logging-interceptor:$loggingInterceptorVersion",
             gsonConverter :  "com.squareup.retrofit2:converter-gson:$retrofitVersion",
             roomDataBase : "androidx.room:room-runtime:$roomVersion",
+            roomCoroutinesSupport: "androidx.room:room-ktx:$roomVersion",
             coroutinesCore : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion",
             coroutinesAndroid : "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
     ]
@@ -87,6 +88,7 @@ ext {
             androidXcore : 'androidx.arch.core:core-testing:2.1.0',
             coroutinesTest: "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesVersion",
             koinTest: "org.koin:koin-test:$koinVersion",
-            jsonForJVM: 'org.json:json:20140107'
+            jsonForJVM: 'org.json:json:20140107',
+            roomTest: "androidx.room:room-testing:$roomVersion"
     ]
 }
