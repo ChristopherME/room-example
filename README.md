@@ -1,16 +1,10 @@
-# Coroutines Base Project
+# Room Example
+
+Load 100 ```TODO``` items from [JSONPlaceholder] into local DB([Room]) and show them on view.
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This project contains the following.
-
-  - [Kotlin Coroutines]
-  - [MVVM]
-  - [Clean Architecture]
-  - Modularization per layer (Basic).
-  - Unit Test
-
-Thanks to [Fernando Cejas], [Paulo Sato], [Mario Lorenzo] and [Ryan M.Key] for provide a lot of great articles, videos, blogs that help incredibly to make this project. You guys really rock.
+This project have the structure of [Base Project].
 
 ### Development
 
@@ -29,7 +23,7 @@ find and fix bugs, make a PR.
 License
 ----
 ```
-Copyright 2019 Christopher Elias.
+Copyright 2020 Christopher Elias.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements. See the NOTICE file distributed with this work for
@@ -46,11 +40,7 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.
 ```
-   [Fernando Cejas]: <https://fernandocejas.com/>
-   [Mario Lorenzo]: <https://github.com/sanogueralorenzo>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [Paulo Sato]: <https://proandroiddev.com/@paulocns>
-   [Ryan M.Key]: <https://www.youtube.com/user/gosuddr93/videos>
-   [Kotlin Coroutines]: <https://kotlinlang.org/docs/reference/coroutines-overview.html>
-   [MVVM]: <https://developer.android.com/jetpack/docs/guide>
-   [Clean Architecture]: <https://proandroiddev.com/clean-architecture-data-flow-dependency-rule-615ffdd79e29>
+
+   [Base Project]: <https://github.com/ChristopherME/base-project>
+   [JSONPlaceholder]: <https://jsonplaceholder.typicode.com>
+   [Room]: <https://developer.android.com/topic/libraries/architecture/room>
